@@ -19,9 +19,9 @@ The system empowers users to fact-check quickly and enables authorities to track
 </p>
 
 <p>
-  <img src="https://github.com/SNprime24/misinfo?style=for-the-badge&logo=github" alt="GitHub stars"/>
-  <img src="https://github.com/SNprime24/misinfo?style=for-the-badge&logo=github" alt="GitHub forks"/>
-  <img src="https://github.com/SNprime24/misinfo?style=for-the-badge&logo=git" alt="Last commit"/>
+  <img src="https://img.shields.io/github/stars/SNprime24/misinfo?style=for-the-badge&logo=github" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/SNprime24/misinfo?style=for-the-badge&logo=github" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/last-commit/SNprime24/misinfo?style=for-the-badge&logo=github" alt="Last commit"/>
 </p>
 
 ---
