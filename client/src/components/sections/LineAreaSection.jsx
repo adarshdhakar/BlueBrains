@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 import { IoAnalyticsOutline } from "react-icons/io5"; // 1. Import the icon
+import config from '../../config.js';
 
 // --- Helper function to calculate nice intervals for the Y-axis ---
 function generateYTicks(dataMax) {
@@ -261,7 +262,7 @@ function LineAreaSection({ theme, sectionAccents, dragListeners }) {
   };
 
   useEffect(() => {
-    const BASE = import.meta.env.VITE_API_URL || "";
+    const BASE = config.API_URL || "";
     const API_URL = `${BASE}/api/v1/trends/traffic`;
 
     const fetchData = async () => {

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 import { TbRadar2 } from "react-icons/tb"; // 1. Import the icon
+import config from '../../config.js';
 
 // --- Local Helper Functions for SVG rendering ---
 const polarToCartesian = (cx, cy, r, angleDeg) => {
@@ -82,7 +83,7 @@ export default function RadarPolarSection({ theme, sectionAccents, dragListeners
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        const BASE = import.meta.env.VITE_API_URL || "";
+        const BASE = config.API_URL || "";
         const API_URL = `${BASE}/api/v1/trends/radar`;
         const fetchData = async () => {
             try {

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { clamp } from "../charts/chartUtils";
 import axios from "axios";
 import { IoNewspaperOutline } from "react-icons/io5";
+import config from '../../config.js';
 
 // A reusable skeleton item component for the loading state.
 const SkeletonItem = () => (
@@ -20,7 +21,7 @@ function SourcesCredibility({ palette, sectionAccents, dragListeners }) {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    const BASE = import.meta.env.VITE_API_URL || "";
+    const BASE = config.API_URL || "";
     const API_URL = `${BASE}/api/v1/trends/sources`;
 
     const fetchData = useCallback(async () => {

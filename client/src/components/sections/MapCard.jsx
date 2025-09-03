@@ -3,6 +3,7 @@ import Graph from "../Graph2";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { IoGlobeOutline, IoLocationOutline, IoMove } from "react-icons/io5";
+import config from '../../config.js';
 
 export default function MapCard({
   theme,
@@ -15,7 +16,7 @@ export default function MapCard({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+  const BASE_URL = config.API_URL || "http://127.0.0.1:8000";
 
   useEffect(() => {
     const fetchData = async () => {

@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import ResultSection from "../components/ResultSection";
 import { toPercent } from "../utils/helpers";
+import config from '../config.js';
 
 // --- Color Palettes ---
 const darkColors = {
@@ -89,7 +90,7 @@ export default function Home({ theme, setTheme }) {
   const resultsRef = useRef(null);
 
   const BASE =
-    import.meta.env.VITE_API_URL ||
+    config.API_URL ||
     "https://misinformation-combater-backend-386097269689.europe-west1.run.app";
   const API_URL = `${BASE}/api/v1/analysis/analyze`;
 

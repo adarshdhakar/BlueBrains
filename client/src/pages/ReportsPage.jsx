@@ -10,8 +10,9 @@ import {
 } from "react-icons/io5";
 import { motion, AnimatePresence } from "framer-motion";
 import Header from "../components/Header";
+import config from '../config.js';
 
-const VITE_API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const API_URL = config.API_URL || "http://127.0.0.1:8000";
 
 // --- Color Palettes ---
 const darkColors = {
@@ -331,7 +332,7 @@ const ReportsPage = ({ theme, setTheme }) => {
     const fetchReports = async () => {
       try {
         const response = await axios.get(
-          `${VITE_API_URL}/api/v1/dashboard/recentReports`
+          `${API_URL}/api/v1/dashboard/recentReports`
         );
         const reportsWithIds = (response.data || []).map((report, index) => ({
           ...report,
