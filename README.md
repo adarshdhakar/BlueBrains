@@ -1,6 +1,11 @@
 <div align="center">
 
-# BlueBrains: Misinformation Combater
+<h1>
+  <a href="https://misinformation-combater-frontend-386097269689.europe-west1.run.app" style="text-decoration: none; color: inherit;">
+    <img src="images/icon.png" alt="Icon" style="height: 40px; vertical-align: middle; margin-right: 8px;">
+    <strong>BlueBrains: Misinformation Combater</strong>
+  </a>
+</h1>
  
 *A system to flag likely misinformation and explain why—fast, simple, and (surprisingly) polite.*
 
