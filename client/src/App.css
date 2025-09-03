@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Remove popup background + border */
+.custom-popup .leaflet-popup-content-wrapper {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* Remove the small triangular tip */
+.custom-popup .leaflet-popup-tip {
+  display: none !important;
+  border: none !important;
+}
+
