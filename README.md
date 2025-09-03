@@ -1,188 +1,237 @@
 <div align="center">
 
-# Jigyasa: Empowering Rural Education, Together
-
-**Jigyasa is a comprehensive web platform designed to bridge the educational gap in rural areas. It connects dedicated volunteers with underserved schools, providing a streamlined system for coordination, resource sharing, and impact tracking. Our mission is to empower rural communities and make quality education accessible to every child.**
-
-<p>
-  <a href="https://jigyasa-dhadpad.netlify.app/" target="_blank"><strong>Live Demo</strong></a> •
-  <a href="https://github.com/adarshdhakar/jigyasa" target="_blank"><strong>GitHub Repository</strong></a> •
-  <a href="https://drive.google.com/drive/folders/1vHkihWCgtLYx28RkCIONgxRNhwB21k_h?usp=drive_link " target="_blank"><strong>Project Resources</strong></a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/github/stars/adarshdhakar/jigyasa?style=for-the-badge&logo=github" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/adarshdhakar/jigyasa?style=for-the-badge&logo=github" alt="GitHub forks"/>
-  <img src="https://img.shields.io/github/last-commit/adarshdhakar/jigyasa?style=for-the-badge&logo=git" alt="Last commit"/>
-</p>
+# BlueBrains: Misinformation Combater
+ 
+*A system to flag likely misinformation and explain why—fast, simple, and (surprisingly) polite.*
 
 </div>
 
 ---
+**BlueBrains: Misinformation Combater** is an AI-powered platform that detects and analyzes misinformation across text, images, audio, PDFs, and URLs.  
+It generates **detailed credibility reports** with clarity, tone, correctness, and originality scores, while also offering a **dashboard for authorities** featuring traffic trends, geographic heatmaps, category breakdowns, and source credibility insights.  
 
-## Project Resources
-* **Project Presentation:** <a href="https://drive.google.com/file/d/1vBvCdWkXvNg2BgtiKSavjRGJim3-jAdR/view?usp=sharing" target="_blank"><strong>Link</strong></a> 
-* **Prompt Handbook:** <a href="https://drive.google.com/file/d/1W6V--GSeMNJ2MI_3ejfPdf-n6LPs-eSb/view?usp=sharing" target="_blank"><strong>Link</strong></a> 
-* **Demo Video:** <a href="https://drive.google.com/file/d/1le48j3RKonGDoi7Fcg_R0WBnZskmQsZf/view?usp=sharing" target="_blank"><strong>Link</strong></a>
+The system empowers users to fact-check quickly and enables authorities to track, analyze, and formally report misinformation at scale.  
+
+<p>
+  <a href="https://misinformation-combater-frontend-386097269689.europe-west1.run.app" target="_blank"><strong>Live Demo</strong></a> •
+  <a href="https://github.com/SNprime24/misinfo" target="_blank"><strong>Frontend Repository</strong></a> •
+  <a href="https://github.com/kumarutkarsh99/misinformation-combater-backend" target="_blank"><strong>Backend Repository</strong></a>
+</p>
+
+<p>
+  <img src="https://github.com/SNprime24/misinfo?style=for-the-badge&logo=github" alt="GitHub stars"/>
+  <img src="https://github.com/SNprime24/misinfo?style=for-the-badge&logo=github" alt="GitHub forks"/>
+  <img src="https://github.com/SNprime24/misinfo?style=for-the-badge&logo=git" alt="Last commit"/>
+</p>
+
 ---
 
-## Tech Stack
-This project is built using the MERN stack and other modern web technologies to deliver a robust and scalable solution.
+## Table of Contents
 
-| Category           | Technologies                                                                                                                                                                                                                                                                                                                                                        |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)                                             |
-| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)                                                                                                                                               |
-| **Database** | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)                                                                                                                                                                                                                                                               |
-| **Authentication** | ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)                                                                                                                                                                                                                                                                 |
-| **File Storage** | ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)                                                                                                                                                                                                                                                    |
-| **Other Tools** | ![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white) ![Spline](https://img.shields.io/badge/Spline-D855E1?style=for-the-badge)                                                                                                                                                                                      |
+- [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [API Description](#api-description)
+- [Contributors](#contributors)
+
+## Tech Stack
+This project leverages **Google Cloud Services** for APIs, database, and deployment, combined with modern web technologies like **FastAPI** and **ReactJS** to deliver a robust and scalable misinformation combating solution.
+
+| Category           | Technologies                                                                                                                                                                                                                                                                                                                                 |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**       | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white) ![Lucide React](https://img.shields.io/badge/Lucide_React-000000?style=for-the-badge&logo=lucide&logoColor=white) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) |
+| **Backend**        | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)                                                                                                                                                                                                                                    |
+| **Database**       | ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)                                                                                                                                                                                                                                |
+| **Deployment**     | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)                                                                                                                                                                                                                        |
+| **AI & APIs**      | ![Google Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white) ![Google Custom Search](https://img.shields.io/badge/Custom_Search-4285F4?style=for-the-badge&logo=google&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google) |
 
 ---
 
 ## Key Features
-Jigyasa is packed with features designed to facilitate a seamless experience for administrators, volunteers, and schools.
 
-| ![screenshot1](./images/1.png) | ![screenshot2](./images/3.png) |
+| ![screenshot1](./images/1.png) | ![screenshot2](./images/2.png) |
 |--------------------------------|--------------------------------|
-
-### 🎨 Enhanced User Experience
-A customizable **light/dark mode** interface coupled with **multilingual support** (English, हिंदी, मराठी) ensures the platform is accessible and user-friendly for everyone.
-| ![screenshot1](./images/9.png) | ![screenshot2](./images/17.png) |
-|--------------------------------|--------------------------------|
-
 <p align="center">
-  <img src="./images/16.png" alt="screenshot" width="50%"/>
+  <img src="./images/9.png" alt="multilingual-dark-light" width="60%"/>
 </p>
-<br/>
 
-### 👨‍🏫 Volunteer Management
-Features a streamlined volunteer **application and onboarding process**. A comprehensive dashboard allows for tracking personnel statistics and performance.
-<br/>
-| ![screenshot1](./images/2.png) | ![screenshot2](./images/5.png) |
-|--------------------------------|--------------------------------|
-| ![screenshot1](./images/4.png) | ![screenshot2](./images/6.png) |
+### 🎤 Multi-Modal Input Support
+Users can submit information through **multiple input types**:
+- 🎙️ Record or upload **audio**
+- 📄 Upload **PDF documents**
+- 🔗 Provide a **URL**
+- ✍️ Enter **plain text**
+- 🖼️ Upload an **image**
 
-<br/>
+This ensures the platform handles diverse formats of misinformation spreading online.
 
-### 📚 Centralized Educational Resources
-Access **chapter-wise organized quizzes and educational videos** for various grade levels, allowing volunteers to deliver structured and effective lessons.
-<br/>
-| ![screenshot1](./images/7.png) | ![screenshot2](./images/8.png) |
-|--------------------------------|--------------------------------|
-
-### 🏫 Smart School Assignment System
-An intelligent allocation system assigns volunteers to schools, with a policy of a **maximum of five schools per volunteer** and one volunteer per school to ensure focused attention.
-<br/>
-
-
-### ⚙️ Robust Admin Controls
-A centralized admin dashboard provides powerful tools for **managing volunteers, uploading resources, and viewing detailed analytics**.
-<br/>
-| ![screenshot1](./images/9.png) | ![screenshot2](./images/13.png) |
-|--------------------------------|--------------------------------|
-| ![screenshot1](./images/11.png) | ![screenshot2](./images/12.png) |
-<p align="center">
-  <img src="./images/10.png" alt="screenshot" width="50%"/>
-</p>
+| ![screenshot_audio](./images/3.png) | ![screenshot_inputs](./images/4.png) |
+|-----------------------------------|------------------------------------|
 
 ---
 
-## Project Structure
-The project is organized as a monorepo with two main directories:
+### 📊 Comprehensive Report Generation
+Every analysis produces a **detailed report** with multiple perspectives:
+- ✅ **Credibility Score** — trustworthiness of the content  
+- 🧾 **Clarity, Tone, Correctness, Originality** — in-depth linguistic + factual evaluation  
+- 📝 **Report Summary** — simplified interpretation  
+- 🔍 **Detected Entities** — people, organizations, places, keywords  
+- 🌐 **Sources & Credibility** — cross-verified references from reliable sources  
+- 🏛️ **Formal Reporting** — ability to **report suspicious content to authorities**  
 
--   `/api`: Contains the entire backend Node.js and Express application.
+| ![detailed_reports](./images/5.png) | ![detailed_reports](./images/6.png) |
+|-----------------------------------|------------------------------------|
+
+---
+
+### 🗺️ Authority Dashboard
+A dedicated **dashboard for authorities and researchers** that provides real-time insights:
+- 🗺️ **Geographic View (India map with points)** — see where misinformation originates and spreads  
+- 📌 **Top Regions** — ranked by misinformation activity  
+- 📈 **Metric Averages** — clarity, tone, credibility score, originality, correctness across all submissions  
+- 📊 **Traffic Trends** — visualize total submissions vs. detected misinformation (daily, weekly, monthly)  
+- 🥧 **Category Breakdown (Pie Chart)** — political, financial, health, other domains  
+- 🔝 **Different Sources** — credibility rankings of top-5 most common misinformation sources  
+
+| ![screenshot_map](./images/7.png) | ![screenshot_dashboard](./images/8.png) |
+|----------------------------------|----------------------------------------|
+
+---
+
+### 🗂️ Misinformation Reports Page
+A centralized **archive of all detected misinformation**:
+- 🔎 **Filters by State** — drill down into specific regions  
+- ⏳ **Filters by Time** — past day, 2 days, week, month  
+- 📋 **Sorted Reports** — detailed entries with metadata, entities, and source credibility  
+
+| ![screenshot_reports](./images/9.png) | ![screenshot_filters](./images/10.png) |
+|--------------------------------------|--------------------------------------|
+
+---
+
+### 🎨 Multilingual Inputs & Light/Dark Mode
+- 🌍 Supports **multilingual inputs** (local languages + English)  
+- 🌗 **Light/Dark mode** switch for accessibility and better UX  
+
+| ![screenshot_light](./images/11.png) | ![screenshot_dark](./images/12.png) |
+|------------------------------------|----------------------------------|
+
+## Project Structure
+The project is organized as a duo-repo with two main parts:
+
+-   `/api`: Contains the entire backend (FastAPI application) 
 -   `/client`: Contains the entire frontend React application.
 
 ```
     ├── api/
-    │   ├── config/
-    │   ├── controllers/
-    │   ├── models/
-    │   ├── routes/
-    │   ├── services/
-    │   ├── index.js
-    │   └── package.json
+    │   ├── app/
+    │   ├── .gitignore
+    │   ├── Dockerfile
+    │   ├── _init_.py
+    │   └── requirements.txt
     └── client/
         ├── public/
         ├── src/
+        │   ├── assets/
+        │   ├── components/
+        |   │   ├── charts/
+        |   │   ├── sections/
+        |   │   └── Graph.jsx
+        │   ├── hooks/
+        │   ├── pages/
+        |   │   ├── Dashboard.jsx
+        |   │   ├── Home.jsx
+        |   │   └── ReportsPage.jsx
+        │   ├── App.css
+        │   ├── App.jsx
+        │   ├── data.js
+        │   ├── index.css
+        │   └── main.jsx
+        ├── .gitignore
+        ├── eslint.config.js
         ├── index.html
-        └── package.json
+        ├── package-lock.json
+        ├── package.json
+        └── vite.config.js
 ```
 
 ---
 
 ## Getting Started
-Follow these instructions to set up and run the project on your local machine for development and testing purposes.
 
-### Prerequisites
-Make sure you have the following software installed on your system:
-* [Node.js](https://nodejs.org/) (v18 or later)
-* [npm](https://www.npmjs.com/) (or yarn)
-* [Git](https://git-scm.com/)
-* [MongoDB](https://www.mongodb.com/) (You can use a local instance or a cloud service like MongoDB Atlas)
+Follow these steps to set up and run the project locally.
 
-### Local Installation & Setup
+### 1️⃣ Clone the repositories
+```bash
+# Clone frontend
+git clone https://github.com/SNprime24/misinfo.git client
 
-1.  **Clone the Repository**
-    ```sh
-    git clone https://github.com/adarshdhakar/jigyasa.git
-    cd jigyasa
-    ```
+# Clone backend
+git clone https://github.com/kumarutkarsh99/misinformation-combater-backend.git api
+```
+### 2️⃣ Setup Environment Variables
+Create a .env file inside the backend (/api) directory with the following keys:
+```bash
+SEARCH_API_KEY=your_google_custom_search_api_key
+SEARCH_ENGINE_ID=your_search_engine_id
+GCP_PROJECT=your_gcp_project_id
+GCP_LOCATION=your_gcp_location
+GEMINI_API_KEY=your_gemini_api_key
+```
 
-2.  **Set Up the Backend (`/api`)**
-    * Navigate to the backend directory:
-        ```sh
-        cd api
-        ```
-    * Install the required dependencies:
-        ```sh
-        npm install
-        ```
-    * Create a `.env` file in the `/api` directory and add the following environment variables. Replace the placeholder values with your actual credentials.
-        ```env
-        PORT=5000
-        ATLASDB_URL=<Your_MongoDB_Connection_String>
-        SECRET=<Your_Super_Secret_Key>
-        CLOUDINARY_CLOUD_NAME=<Your_Cloudinary_Cloud_Name>
-        CLOUDINARY_API_KEY=<Your_Cloudinary_API_Key>
-        CLOUDINARY_API_SECRET=<Your_Cloudinary_API_Secret>
-        EMAIL_USER=<Your_Email_Address_for_Nodemailer>
-        EMAIL_PASS=<Your_Email_Password_or_App_Password>
-        JWT_SECRET=<Your_JWT_Secret_Key>
-        ```
-    * Start the backend server:
-        ```sh
-        nodemon index.js
-        ```
-    * The server should now be running on `http://localhost:5000`.
+### 3️⃣ Run the Backend (FastAPI)
+```bash
+cd api
+python3 -m venv .venv
+source .venv/bin/activate  # macOS/Linux
 
-3.  **Set Up the Frontend (`/client`)**
-    * Open a new terminal and navigate to the frontend directory from the root folder:
-        ```sh
-        cd client
-        ```
-    * Install the required dependencies:
-        ```sh
-        npm install
-        ```
-    * Start the frontend development server:
-        ```sh
-        npm run dev
-        ```
-    * The React application will open and run on `http://localhost:5173`.
+pip install -r requirements.txt
 
-You can now access the application in your browser and start exploring!
-
+uvicorn app.main:app --reload --host 0.0.0.0 --port 5000
+```
+Backend will start at:
+👉 http://localhost:5000
 ---
 
-## Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+### 4️⃣ Run the Frontend (React + Vite)
+```bash
+cd client
+npm install
+npm run dev
+```
+Frontend will start at:
+👉 http://localhost:8080
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+### API Description
+The backend API exposes several endpoints that the frontend can use.
+
+```POST /api/analyze```
+Analyze a given input (text, URL, image, pdf, or audio).
+
+```GET /api/v1/trends/traffic```
+Fetch traffic trends for misinformation reports over time.
+
+```GET /api/v1/dashboard/heatmap```
+Retrieve geographic distribution of misinformation cases.
+
+```GET /api/v1/dashboard/recentReports```
+Fetch the most recent misinformation reports.
+
+```GET /api/v1/dashboard/categories```
+Retrieve category breakdown of misinformation reports.
+
+```GET /api/v1/trends/radar```
+Fetch average metric values across all misinformation data.
+
+```GET /api/v1/trends/sources```
+Fetch top-5 misinformation sources ranked by credibility.
+
+## Contributors
+
+- Kumar Utkarsh
+- Suprit Naik
+- Harsh Maurya
+- Adarsh Dhakar
 
 ---
